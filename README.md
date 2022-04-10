@@ -39,4 +39,6 @@ Response: {
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlvIiwiaWQiOiI2MjUyMmY4NmZjM2E2MjQ2ZTBkNWM2OTgiLCJleHBpcmF0aW9uIjoxNjUwMTU5MTUwLCJpYXQiOjE2NDk1NTQzNTAsImV4cCI6MTY1MDE1OTE1MH0.Z-jWIIjsp2rtPxhFqZrFpBWETnv-l0h4fmAHSxcNEHU"
 
 }
+
+### .env file should be put into .gitingore
  
