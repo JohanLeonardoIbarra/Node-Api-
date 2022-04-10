@@ -1,7 +1,9 @@
 import express from "express";
-
-import defaultRoute from "./routes/default";
-import usersRoutes from "./routes/users";
+import "./database";
+import "module-alias/register";
+//Import routes
+import defaultRoute from "@routes/default";
+import usersRoutes from "@routes/users";
 
 const app = express();
 
@@ -12,7 +14,7 @@ app.set("port", process.env.PORT || 3000);
 app.use(express.json());
 
 //Routes
-app.use("/", defaultRoute);
+app.use("/api", defaultRoute);
 app.use("/api/users", usersRoutes);
 
 //Server Running

@@ -10,12 +10,21 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.3"
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "module-alias": "^2.2.2",
+        "mongoose": "^6.2.10"
     },
     "devDependencies": {
         "@babel/cli": "^7.17.6",
         "@babel/core": "^7.17.9",
         "@babel/node": "^7.16.8",
         "@babel/preset-env": "^7.16.11"
+    },
+    "_moduleAliases": {
+        "@root": ".",
+        "@src": "./src",
+        "@routes": "./src/routes",
+        "@models-users": "./src/models/users"
     }
 }
