@@ -40,5 +40,5 @@ Response: {
 
 }
 
-### .env file should be put into .gitingore
+### .env file should be put into .gitignore
  
